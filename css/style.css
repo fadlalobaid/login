@@ -1,0 +1,76 @@
+body{
+    background-image: url('../images/bgb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+    filter: blur(0px);
+
+}
+.header{
+   
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'fantasy';
+    text-shadow: 1px 1px 10px#030d02;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'fantasy';
+    margin: 10px;
+    color:#2d2215;
+    text-shadow: 1px 1px 10px #030d02;
+}
+input[type="text"]{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'fantasy';
+    color:#2d2215;
+    text-shadow: 1px 1px 10px #030d02;
+}
+.container{
+    width: 500px;
+    padding: 20px;
+    background: #b97319eb;
+    opacity: 0.8;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    top: 200px;
+    box-shadow: 1px 1px 10px 10px #030d02;
+}
+.form-group{
+    margin: 15px;
+    margin-left: 0px;
+
+}
+select{
+    color:#2d2215;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.bttn{
+    width: 150px;
+    height: 50px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'fantasy';
+    text-shadow: 1px 1px 10px #030d02;
+    position: relative;
+    left:30%;
+    top: 10px;
+}
